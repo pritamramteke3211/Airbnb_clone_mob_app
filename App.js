@@ -5,6 +5,7 @@ import HomeScreen from './src/screens/Home'
 import Test from './src/screens/Test'
 import Post from './src/components/Post'
 import feed from './assets/data/feed'
+import SearchResultsScreen from './src/screens/SearchResults'
 
 const post1 = feed[0];
 
@@ -15,8 +16,8 @@ const App = () => {
     <SafeAreaView>
       {/* <Test/> */}
       {/* <HomeScreen /> */}
-
-      <Post post={post1}/>
+      {/* <Post post={post1}/> */}
+      <SearchResultsScreen/>
     </SafeAreaView>
     </>
   )
